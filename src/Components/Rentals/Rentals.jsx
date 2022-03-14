@@ -18,18 +18,18 @@ export const Rentals = () => {
 
   return (
     <div className="rentalContainer">
-      {/* <div className="sortingButtons">
+      <div className="sortingButtons">
         <button className="sortById">Sort by ID</button>
         <button className="sortByRentAsc">Rent Low to high</button>
         <button className="sortByRentDesc">Rent High to low</button>
         <button className="sortByAreaAsc">Area Low to high</button>
         <button className="sortByAreaDesc">Area High to Low</button>
-      </div> */}
-      {/* <input
+      </div>
+      <input
         className="searchAddress"
         type="text"
         placeholder="Search Address"
-      /> */}
+      />
       <table className="table" border="1">
         <thead>
           <tr>

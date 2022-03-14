@@ -32,6 +32,39 @@
       "married": "",
       "image": "xdv",
       "id": 3
+    },
+    {
+      "name": "DANISH AHMED GULAM MOHAMMED",
+      "ownerName": "",
+      "address": "",
+      "areaCode": "",
+      "rent": "",
+      "bachelor": "",
+      "married": "",
+      "image": "",
+      "id": 4
+    },
+    {
+      "name": "DANISH AHMED GULAM MOHAMMED",
+      "ownerName": "MBMB",
+      "address": "JMBM",
+      "areaCode": "5435",
+      "rent": "5413",
+      "bachelor": "bachelor",
+      "married": "married",
+      "image": "NBB",
+      "id": 5
+    },
+    {
+      "name": "FDG",
+      "ownerName": "DFGFD",
+      "address": "DFFD",
+      "areaCode": "21",
+      "rent": "3551321",
+      "bachelor": "bachelor",
+      "married": "",
+      "image": "GX",
+      "id": 6
     }
   ]
 }

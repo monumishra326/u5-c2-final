@@ -7,12 +7,11 @@ function App() {
     <div className="App">
       <AddHouse></AddHouse>
       <Rentals></Rentals>
-      {/* <button className="toggleForm"> */}
-      {/* Show text Add House or Show Rentals based on state */}
-
-      {/* </button> */}
+      <button className="toggleForm">
+        {/* Show text Add House or Show Rentals based on state */}
+      </button>
       {/* Show component based on state */}
-      {/* <br /> */}
+      <br />
     </div>
   );
 }
