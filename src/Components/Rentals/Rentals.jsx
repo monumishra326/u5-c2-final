@@ -1,20 +1,35 @@
-import "./Rentals.css";
+// import "./Rentals.css";
+import axios from "axios";
+
+import { useState, useEffect } from "react";
 
 export const Rentals = () => {
+  const [getdata, setgetdata] = useState([]);
+
+  const details = () => {
+    axios.get("http://localhost:8080/houses").then((res) => {
+      var alldata = res.data;
+      setgetdata(alldata);
+    });
+  };
+  useEffect(() => {
+    details();
+  }, []);
+
   return (
     <div className="rentalContainer">
-      <div className="sortingButtons">
+      {/* <div className="sortingButtons">
         <button className="sortById">Sort by ID</button>
         <button className="sortByRentAsc">Rent Low to high</button>
         <button className="sortByRentDesc">Rent High to low</button>
         <button className="sortByAreaAsc">Area Low to high</button>
         <button className="sortByAreaDesc">Area High to Low</button>
-      </div>
-      <input
+      </div> */}
+      {/* <input
         className="searchAddress"
         type="text"
         placeholder="Search Address"
-      />
+      /> */}
       <table className="table" border="1">
         <thead>
           <tr>
@@ -29,7 +44,7 @@ export const Rentals = () => {
           </tr>
         </thead>
         <tbody>
-          {[].map((house, index) => {
+          {getdata.map((house, index) => {
             return (
               <tr key={house.id} className="houseDetails">
                 <td className="houseId">{house.id}</td>

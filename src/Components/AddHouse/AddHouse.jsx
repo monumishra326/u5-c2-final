@@ -37,29 +37,6 @@ export const AddHouse = () => {
   useEffect(() => {
     details();
   }, []);
-  //   const [houses, sethouses] = useState([]);
-  //   const InputHandler = (e) => {
-  //     const [id, value] = e.target;
-
-  //     setinput({ ...input, [id]: value });
-  //   };
-
-  //   const submitHandler = (e) => {
-  //     e.preventDefault();
-  //     axios.post("http://localhost:8080/houses", input).then(() => {
-  //       alert("data Submitted");
-  //     });
-  //   };
-
-  //   const alldata = () => {
-  //     axios.get("http://localhost:8080/houses").then((res) => {
-  //       sethouses(res.data);
-  //     });
-  //   };
-
-  //   useEffect(() => {
-  //     alldata();
-  //   }, []);
 
   return (
     <div className="addHouseContainer">

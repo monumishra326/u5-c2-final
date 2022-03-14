@@ -1,3 +1,37 @@
 {
-  "houses": []
+  "houses": [
+    {
+      "name": "ghgchggh",
+      "ownerName": "cxncgbg",
+      "address": "xfgf",
+      "areaCode": "425201",
+      "rent": "5555",
+      "bachelor": "",
+      "married": "married",
+      "image": "fdgzfdg",
+      "id": 1
+    },
+    {
+      "name": "DANISH AHMED GULAM MOHAMMED",
+      "ownerName": "scd",
+      "address": "dd",
+      "areaCode": "1325",
+      "rent": "321",
+      "bachelor": "bachelor",
+      "married": "",
+      "image": "dvd",
+      "id": 2
+    },
+    {
+      "name": "zdv",
+      "ownerName": "dv",
+      "address": "xdv",
+      "areaCode": "513",
+      "rent": "351",
+      "bachelor": "bachelor",
+      "married": "",
+      "image": "xdv",
+      "id": 3
+    }
+  ]
 }
