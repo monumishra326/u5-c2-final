@@ -13,7 +13,7 @@ export const AddHouse = () => {
     image: "",
   });
 
-  const [getdata, setgetdata] = useState([]);
+  //   const [getdata, setgetdata] = useState([]);
 
   const InputHandler = (e) => {
     const { id, value } = e.target;
@@ -25,18 +25,18 @@ export const AddHouse = () => {
     axios.post("http://localhost:8080/houses", houses).then(() => {
       alert("data submitted");
 
-      details();
+      //   details();
     });
   };
-  const details = () => {
-    axios.get("http://localhost:8080/houses").then((res) => {
-      var alldata = res.data;
-      setgetdata(alldata);
-    });
-  };
-  useEffect(() => {
-    details();
-  }, []);
+  //   const details = () => {
+  //     axios.get("http://localhost:8080/houses").then((res) => {
+  //       var alldata = res.data;
+  //       setgetdata(alldata);
+  //     });
+  //   };
+  //   useEffect(() => {
+  //     details();
+  //   }, []);
 
   return (
     <div className="addHouseContainer">

@@ -65,6 +65,50 @@
       "married": "",
       "image": "GX",
       "id": 6
+    },
+    {
+      "name": "roshan",
+      "ownerName": "hvnmv",
+      "address": "mvn",
+      "areaCode": "643",
+      "rent": "54645",
+      "bachelor": "bachelor",
+      "married": "",
+      "image": "hvnv",
+      "id": 7
+    },
+    {
+      "name": "DANISH AHMED GULAM MOHAMMED",
+      "ownerName": "sd",
+      "address": "sdf",
+      "areaCode": "3213",
+      "rent": "3222222",
+      "bachelor": "bachelor",
+      "married": "",
+      "image": "dfD",
+      "id": 8
+    },
+    {
+      "name": "ttttt",
+      "ownerName": "ttttttt",
+      "address": "tttttttttttt",
+      "areaCode": "62",
+      "rent": "",
+      "bachelor": "",
+      "married": "",
+      "image": "",
+      "id": 9
+    },
+    {
+      "name": "ttttt",
+      "ownerName": "ttttttt",
+      "address": "tttttttttttt",
+      "areaCode": "6232",
+      "rent": "3213",
+      "bachelor": "bachelor",
+      "married": "",
+      "image": "szdf",
+      "id": 10
     }
   ]
 }
