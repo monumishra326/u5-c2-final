@@ -1,11 +1,26 @@
 // import "./App.css";
 import { Rentals } from "./Components/Rentals/Rentals";
 import { AddHouse } from "./Components/AddHouse/AddHouse";
+import { useState } from "react";
 
 function App() {
-  // const [toogle, settoogle] = useState("form");
+  // const [toogle, settoogle] = useState(true);
+  // var table = "block";
+  // var form = "none";
+  // const togglers = () => {
+  //   settoogle(false);
+  //   if (toogle === false) {
+  //     form = "block";
+  //   } else {
+  //     form = "none";
+  //   }
 
-  // const toggler = () => {};
+  //   if (toogle === true) {
+  //     table = "block";
+  //   } else {
+  //     table = "none";
+  //   }
+  // };
 
   return (
     <div className="App">
